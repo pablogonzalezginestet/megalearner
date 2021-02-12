@@ -1,0 +1,14 @@
+Package: megalearner
+Title: Survival stacking with multiple data types using pseudo-observation-based-AUC loss function
+Version: 0.0.0.9000
+Authors@R: c(
+           person("Pablo", "Gonzalez Ginestet", email = "pablo.gonzalez.ginestet@ki.se",
+           role = c("aut", "cre"), comment = "https://staff.ki.se/people/pabgon" ) )
+Description: Estimation the risk of an event at a specific time in the presence of censored data using a collection of 
+             machine learning algorithms for different survival outcomes.
+             
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
