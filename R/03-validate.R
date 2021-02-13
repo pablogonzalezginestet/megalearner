@@ -1,5 +1,5 @@
 library(pseudoloss)  ##
-source("00-model-specs.R")
+#source("00-model-specs.R")
 
 library(xtable)
 library(ggplot2)
