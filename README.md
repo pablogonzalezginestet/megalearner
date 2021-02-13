@@ -9,20 +9,14 @@
 
 The goal of megalearner is to …
 
+## Organization of folders
+
 ## Installation
 
-You can install the released version of megalearner from
-[CRAN](https://CRAN.R-project.org) with:
+You can install the development version of `megalearner` from GitHub
+with:
 
 ``` r
-install.packages("megalearner")
+if (!require("remotes")) install.packages("remotes")
+remotes::install_github("pablogonzalezginestet/megalearner")
 ```
-
-And the development version from [GitHub](https://github.com/) with:
-
-``` r
-# install.packages("devtools")
-devtools::install_github("pablogonzalezginestet/megalearner")
-```
-
-## Example
