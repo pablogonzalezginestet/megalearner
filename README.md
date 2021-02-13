@@ -1,13 +1,15 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# megalearner
+## megalearner
 
 <!-- badges: start -->
 
 <!-- badges: end -->
 
-The goal of megalearner is to …
+**megalearner** is an `R` package that implements the method in the
+paper Gonzalez Ginestet, P. et al. (2021). “Survival stacking with
+multiple data types using pseudo-observation-based-AUC loss”.
 
 ## Organization of folders
 
