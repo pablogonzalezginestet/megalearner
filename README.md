@@ -7,13 +7,12 @@
 
 <!-- badges: end -->
 
-**megalearner** is an `R` package that implements the method in the
-paper Gonzalez Ginestet, P. et al. (2021). “Survival stacking with
-multiple data types using pseudo-observation-based-AUC loss”.
+**megalearner** is series of `R` scripts found in the folder R runs the
+illustrative example as described in the paper Gonzalez Ginestet, P. et
+al. (2021). “Survival stacking with multiple data types using
+pseudo-observation-based-AUC loss”.
 
-This series of `R` scripts found in the folder R runs the illustrative
-example as described in the paper. The scripts depend on each other in
-the following way:
+The scripts depend on each other in the following way:
 
 03-validate.R -\> depends on -\> 02-opt-stack.R -\> depends on -\>
 01-train-models.R -\> depends on 00-model-specs.R
