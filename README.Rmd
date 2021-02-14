@@ -18,7 +18,14 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 <!-- badges: end -->
 
- **megalearner** is series of `R` scripts, found in the folder R, run the illustrative example as described in the paper Gonzalez Ginestet, P. et al. (2021). "Survival stacking with multiple data types using pseudo-observation-based-AUC loss".
+ **megalearner** is series of `R` scripts, found in the folder R, that implement the illustrative example described in the paper Gonzalez Ginestet, P. et al. (2021). "Survival stacking with multiple data types using pseudo-observation-based-AUC loss".
+ 
+**megalearner** builds a more accurate risk prediction model than standard methods such as Cox proportional hazard or single machine learning algorithms that have been already adapted to handle right-censored observations.
+**megalearner** optimally stacks predictions from any method based on different survival outcome types (either binary or continuous). In the paper, we show that our proposed method can improve on single survival based methods such as survival random forest or on other strategies that use a pre-processing step such as inverse probability of censoring weighted or pseudo-observations.
+
+We use the Rotterdam data set as training data set and we validate the predictions in an external data set. For that, we use the data from the German Breast Cancer Study Group (GBSG).
+
+## Organization of the folders
 
 The scripts depend on each other in the following way: 
 
