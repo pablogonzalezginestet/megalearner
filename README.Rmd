@@ -23,7 +23,7 @@ knitr::opts_chunk$set(
 **megalearner** builds a more accurate risk prediction model than standard methods such as Cox proportional hazard or single machine learning algorithms that have been already adapted to handle right-censored observations.
 **megalearner** optimally stacks predictions from any method based on different survival outcome types (either binary or continuous). In the paper, we show that our proposed method can improve on single survival based methods such as survival random forest or on other strategies that use a pre-processing step such as inverse probability of censoring weighted or pseudo-observations.
 
-We use the Rotterdam data set as training data set and we validate the predictions in an external data set. For that, we use the data from the German Breast Cancer Study Group (GBSG).
+We use the Rotterdam data set as training data set and we validate the predictions in an external data set. For that, we use the data from the German Breast Cancer Study Group (GBSG). Both data sets are available in the `survival` R package [Therneau, 2000].
 
 ## Organization of the folders
 

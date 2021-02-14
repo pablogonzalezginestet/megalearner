@@ -24,7 +24,8 @@ as inverse probability of censoring weighted or pseudo-observations.
 
 We use the Rotterdam data set as training data set and we validate the
 predictions in an external data set. For that, we use the data from the
-German Breast Cancer Study Group (GBSG).
+German Breast Cancer Study Group (GBSG). Both data sets are available in
+the `survival` R package \[Therneau, 2000\].
 
 ## Organization of the folders
 
