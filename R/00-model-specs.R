@@ -11,7 +11,12 @@ library(class)
 ## models
 
 ## survival
-
+############### Natively ############################
+#' @description  Predictions based on those Machine Learning procedures in the library that allow for weights to be specified as an argument of the R function. No bagging occurs. This group of algorithms is denoted as  Native Weights
+#' @param dset data set
+#' @return  prediction
+#' @rdname megalearner-internal
+#'
 stepwise <- function(dset) {
 
   cfit <- coxph(YY ~ ., data = dset)

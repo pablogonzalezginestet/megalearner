@@ -34,4 +34,5 @@ Depends:
     utils,
     datasets,
     methods,
-    base
+    base,
+    plotROC
