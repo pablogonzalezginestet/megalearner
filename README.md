@@ -7,7 +7,7 @@
 
 <!-- badges: end -->
 
-**megalearner** is series of `R` scripts, found in the folder R, that
+**megalearner** is series of R scripts, found in the folder R, that
 implement the illustrative example described in the paper Gonzalez
 Ginestet, P. et al. (2021). “Survival stacking with multiple data types
 using pseudo-observation-based-AUC loss”.
@@ -41,6 +41,9 @@ matrix Z (“Zout.rds”) and the folds used in the cross-validation
 02-opt-stack.R: saves the optimal coefficient used to combine the
 algorithms (“opt-coeffs.rds”) and the AUC at 5 years cross-validated of
 the stacking (“cv-aucs-stack.rds”)
+
+The folder figure contains the plots in the paper (Figure 1 and Figure
+2).
 
 ## Installation
 
