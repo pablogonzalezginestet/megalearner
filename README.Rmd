@@ -37,15 +37,33 @@ The scripts depend on each other in the following way:
 
 ## Installation
 
-You can install the development version of `megalearner` from GitHub with:
+Depends on the following R packages: 
+    `broom`,
+    `patchwork`,
+    `ggplot2`,
+    `xtable`,
+    `class`,
+    `glmnet`,
+    `e1071`,
+    `riskRegression`,
+    `CoxBoost`,
+    `prodlim`,
+    `Matrix`,
+    `randomForestSRC`,
+    `survival`,
+    `eventglm`,
+    `pseudoloss`,
+    `splines`,
+    `stats`,
+    `graphics`,
+    `grDevices`,
+    `utils`,
+    `datasets`,
+    `methods`,
+    `base`,
+    `plotROC`
 
-``` r
-if (!require("remotes")) install.packages("remotes")
-remotes::install_github("pablogonzalezginestet/megalearner")
-
-```
-
-Among other packages, `megalearner` requires to have install these packages `CoxBoost`, `eventglm` and `pseudoloss` that can be installed as follow:
+The following packages `CoxBoost`, `eventglm` and `pseudoloss` can be installed as follows:
 
 ``` r
 remotes::install_github("binderh/CoxBoost")
