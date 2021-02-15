@@ -31,7 +31,7 @@ The scripts depend on each other in the following way:
 
 03-validate.R -> depends on -> 02-opt-stack.R -> depends on -> 01-train-models.R -> depends on 00-model-specs.R
 
-01-train-models.R: saves the fit of each algorithm ("fullfits.rds"), the matrix Z ("Zout.rds") and the folds used in the cross-validation ("split.rds")
+01-train-models.R: saves the fit of each algorithm ("fullfits.rds"), the matrix Z ("Zout.rds") where the predictions of each algorithms are recorded and the folds used in the cross-validation ("split.rds")
 
 02-opt-stack.R: saves the optimal coefficient used to combine the algorithms ("opt-coeffs.rds") and the AUC at 5 years cross-validated of the stacking ("cv-aucs-stack.rds")
 
