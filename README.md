@@ -42,8 +42,9 @@ recorded and the folds used in the cross-validation (“split.rds”)
 algorithms (“opt-coeffs.rds”) and the AUC at 5 years cross-validated of
 the stacking (“cv-aucs-stack.rds”)
 
-The folder figure contains the plots in the paper (Figure 1 and Figure
-2).
+The folder METABRIC contains the R codes to run the procedure in the METABRIC dataset.
+
+The folder figure contains the plots in the paper. 
 
 ## Installation
 
