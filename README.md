@@ -22,10 +22,15 @@ method can improve on single survival based methods such as survival
 random forest or on other strategies that use a pre-processing step such
 as inverse probability of censoring weighted or pseudo-observations.
 
-We use the Rotterdam data set as training data set and we validate the
+We illustrate our methodology in two datasets:
+
+1) We use the  Rotterdam data set as training data set and we validate the
 predictions in an external data set. For that, we use the data from the
 German Breast Cancer Study Group (GBSG). Both data sets are available in
 the `survival` R package \[Therneau, 2000\].
+
+2) We use the METABRIC cohort for two endpoints: overall survival (OS)
+and recurrence-free survival (RFS) in months.
 
 ## Organization of the folders
 
@@ -42,7 +47,7 @@ recorded and the folds used in the cross-validation (“split.rds”)
 algorithms (“opt-coeffs.rds”) and the AUC at 5 years cross-validated of
 the stacking (“cv-aucs-stack.rds”)
 
-The folder METABRIC contains the R codes to run the procedure in the METABRIC dataset.
+The folder METABRIC contains the R codes to run the procedure in the METABRIC dataset for the two predictive examples.
 
 The folder figure contains the plots in the paper. 
 
